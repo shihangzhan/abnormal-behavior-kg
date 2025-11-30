@@ -15,7 +15,18 @@ You can load this graph:
 - **Online** using **Neo4j AuraDB (cloud / web)** without any installation
 
 ---
+# 🚧 Roadmap / Future Work
 
+This repository will later include a **complete Question-Answering (QA) system**  
+built on top of the Abnormal Behavior Knowledge Graph, including:
+
+- Knowledge-graph–driven reasoning
+- Natural-language Q&A over detected behaviors
+- Semantic event inference
+- Example pipelines for CV → KG → QA
+- REST API & Demo interface
+
+Once completed, the full QA system will be open-sourced in this repository.
 # 📂 Folder Structure
 
 
