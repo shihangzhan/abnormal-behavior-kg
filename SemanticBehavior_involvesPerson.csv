@@ -1,0 +1,3 @@
+semantic_behavior_id,involvesPerson,person_id
+Fighting,involvesPerson,Civilian
+Fighting,involvesPerson,DenseCrowd

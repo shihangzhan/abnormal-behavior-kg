@@ -1,0 +1,7 @@
+id,object_type
+Gun,Weapon
+Knife,Weapon
+Stick,Weapon
+Flame,Hazard
+Smoke,Hazard
+Bag,Item

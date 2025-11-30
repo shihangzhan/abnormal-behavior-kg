@@ -1,0 +1,6 @@
+id,type
+Civilian,Person
+SecurityGuard,Person
+Police,Person
+MedicalStaff,Person
+DenseCrowd,PersonGroup

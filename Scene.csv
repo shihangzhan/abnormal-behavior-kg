@@ -1,0 +1,5 @@
+id,scene_type
+Mall,Indoor
+SchoolCorridor,Indoor
+HospitalCorridor,Indoor
+Street,Outdoor

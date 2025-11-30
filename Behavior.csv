@@ -1,0 +1,8 @@
+id,behavior_type
+Walk,Walk
+Run,Run
+Fall,Fall
+RaiseHand,RaiseHand
+SwingObject,SwingObject
+Punch,Punch
+Kick,Kick
