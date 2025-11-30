@@ -71,7 +71,6 @@ abnormal-behavior-knowledge-graph/
 
 ```mermaid
 graph TD
-
     Person --> |PERFORMED| Behavior
     Person --> |HOLDS| Object
     Person --> |LOCATED_IN| Scene
@@ -85,8 +84,10 @@ graph TD
 1. Copy all CSV files into your Neo4j import directory:
 <neo4j-home>/import/
 
-2. Open Neo4j Browser (http://localhost:7474
-)
+2. Open Neo4j Browser:
+
+http://localhost:7474
+
 3. Run the following Cypher:
 ▶ Load Nodes
 LOAD CSV WITH HEADERS FROM "file:///Person.csv" AS row
@@ -144,7 +145,7 @@ MATCH (o:Object {id: row.`:END_ID(Object)`})
 MERGE (sb)-[:INVOLVES_OBJECT]->(o);
 
 ☁️ Load the Graph on Neo4j AuraDB (Cloud)
-1. Open Aura Console
+1. Open Aura Console:
 
 https://console.neo4j.io/
 
@@ -155,9 +156,9 @@ Upload all 13 CSV files.
 3. Click Connect → Open Browser
 4. Run the same Cypher import scripts above
 
-"file:///YourFile.csv" works directly in Aura.
+file:///YourFile.csv works directly in Aura.
 
-No installation. Nothing local. Fully web-based.
+No installation. Fully web-based.
 
 🔍 Example Usage Queries
 Find all semantic events:
