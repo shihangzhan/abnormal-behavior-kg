@@ -80,18 +80,6 @@ abnormal-behavior-knowledge-graph/
 
 # 🧠 Knowledge Graph Schema (Mermaid Diagram)
 
-```mermaid
-graph TD
-    Person --> |PERFORMED| Behavior
-    Person --> |HOLDS| Object
-    Person --> |LOCATED_IN| Scene
-    Object --> |OBJECT_LOCATED_IN| Scene
-    Crowd --> |CROWD_LOCATED_IN| Scene
-    SemanticBehavior --> |INVOLVES_PERSON| Person
-    SemanticBehavior --> |INVOLVES_OBJECT| Object
-```
-
-
 🖥️ Load the Graph Locally (Neo4j Desktop / Neo4j Server)
 1. Copy all CSV files into your Neo4j import directory:
 <neo4j-home>/import/
